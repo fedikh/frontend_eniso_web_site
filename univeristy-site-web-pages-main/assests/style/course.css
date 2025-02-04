@@ -1,0 +1,188 @@
+
+ /* header background image set: */
+.header{
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.8)),
+      url("../images/ww.jpg");
+}
+
+  /*-------Course-------*/
+
+  .course {
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    text-align: center;
+    position: relative;
+  }
+
+  .course .hidden{
+    display: none;
+  }
+
+  .row {
+    display: flex;
+    position: absolute;
+    top: -150px;
+    justify-content: space-around;
+    margin-top: 5%;
+  }
+  .course-col {
+    flex-basis: 31%;
+    background-image: linear-gradient(#fff3ff,#f3f3f3,wheat);
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+  h3 {
+    font-weight: 600;
+    margin: 10px 0;
+    text-align: center;
+  }
+  .course-col:hover {
+    box-shadow: 0 0 20px 0 rgb(0, 0, 0, 0.2);
+  }
+  
+  @media screen and (max-width: 700px) {
+    .row {
+        position: static;
+      flex-direction: column;
+    }
+    .course{
+        position: static;
+    }
+    .course .hidden{
+        display: block;
+    }
+    h1 {
+        font-size: 36px;
+        font-weight: 600;
+      }
+      p {
+        padding: 10px;
+        font-weight: 300;
+        font-size: 14px;
+        color: #777;
+        line-height: 22px;
+      }
+  }
+  
+
+
+  /* ------------Courses Content----------- */
+
+  .content{
+    width: 80%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+    top: 70px;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 80px;
+  }
+
+  .content .col-1{
+    width: 100%;
+    padding-top: 10px;
+    display: block;
+  }
+
+  .content .col-1 .list{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+   ul{
+    list-style: none;
+  }
+
+  .content .col-1 .list .uc-course h3,.content .col-1 .list .pg-course h3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+  }
+
+  .content .col-1 .list .uc-course .material, .content .col-1 .list .pg-course .material{
+    padding: 12px;
+  }
+
+  @media screen and (max-width:820px){
+    .content .col-1 .list{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+      }
+  }
+  @media screen and (min-width:850px) and (max-width:1010px) {
+    .content{
+        top:100px
+    }
+  }
+  @media screen and (min-width:700px) and (max-width:849px) {
+    .content{
+        top:140px
+    }
+  }
+  @media screen and (min-width:0px) and (max-width:700px) {
+    .content{
+        top:10px
+    }
+  }
+.dd{
+  flex-basis: 31%;
+  background-color: #cce6f1;
+  margin-bottom: 3%;
+  padding: 20px 12px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-left:1% ;
+  margin-right:1% ;
+  margin-top: 3%;
+  
+
+
+}
+h3 {
+  font-weight: 600;
+  margin: 10px 0;
+  text-align: center;
+  text-decoration: underline;
+}
+.dd:hover {
+  box-shadow: 0 0 20px 0 rgb(0, 0, 0, 0.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  /*----------Footer--------*/
+
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+  }
+  
+  .footer .h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+  }
+  
+  .icons .fab{
+    color: #f44336;
+    margin: 0 13px;
+    padding: 18px 0;
+  }
+  

@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/header.css">
+    <link rel="stylesheet" href="../style/sample.css">
+    <script src="https://kit.fontawesome.com/71eb553118.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="aos-by-red.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+  <title>ENISO Web - Site || Signin Page</title>
+</head>
+<body>
+    <section class="header">
+      <nav>
+        <a data-aos="fade-up" href="../../index.html"><img src="\univeristy-site-web-pages-main\assests\images\Logo_ENISo,_Tunisie.svg.png" alt="logo" /></a>
+        <div class="nav-links" id="nav-links">
+          <i class="fas fa-2x fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="../../index.html">HOME</a></li>
+            <li><a href="../pages/about.html">ABOUT</a></li>
+            <li><a href="../pages/course.html">CLUBS SPACE</a></li>
+            <li class="relative"><a href="#">COURSE</a>
+              <div class="dropdown absolute">
+                <ul>
+                  <li><a href="info.html">IA</a></li><br>
+                <li><a href="#">EI</a></li><br>
+                <li><a href="#">MI</a></li><br>
+                <li><a href="#">GTE</a></li><br>
+                <li><a href="#">MP</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="relative" style="color: white ; cursor: pointer;">SignUp/Signin
+              <div class="login-sinup dropdown absolute">
+                <ul>
+                  <li><a href="../pages/sample.html">SignUp</a></li>
+                  <li><a href="../pages/signin.html">Signin</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <i class="fas fa-2x fa-bars" onclick="showMenu()"></i>
+      </nav>
+    
+        <div class="row">
+            <div class="col-1">
+                <h3>Welcome to the launchpad of your dreams! Blast off to a future full of possibilities. </h3>
+                <p><p>I hope that this website will be helpful to all <br>engineering students all over the world.
+                
+            </div>
+            <div class="col-2">
+                <div class="form">
+                    <form action="#" >
+                        <h4>Login</h4>
+                        
+                        <div class="form-group">
+                            <input type="email" class="input" name="email" placeholder="EMAIL" required>
+                           
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="input" name="password" placeholder="PASSWORD" required>
+                         
+                        </div>
+            
+                        <div class="btn">
+                            <button>Submit</button>
+                            <p class="text">
+                                Create new account? <a href="sample.html" style="color:white;">  SignUp</a>
+                            </p>
+    
+                        </div>
+            
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    
+    
+    <script src="../index.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 3000,
+        once: true,
+      });
+    </script>
+</body>
+</html>
